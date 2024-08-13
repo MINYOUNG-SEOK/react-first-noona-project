@@ -147,22 +147,24 @@ h2 {
 
 @media (max-width: 768px) {
     .box {
-        width: 200px;
-        min-width: 200px;
-        height: 300px;
+        width: 250px;
+        min-width: 250px;
+        height: 400px;
+        margin: 10px;
     }
 
     button img {
-        width: 70px;
-        height: 70px;
+        width: 90px;
+        height: 90px;
     }
 }
 
 @media (max-width: 480px) {
     .box {
-        width: 150px;
-        min-width: 150px;
+        width: 170px;
+        min-width: 170px;
         height: 300px;
+        margin: 10px;
     }
 
     button img {
