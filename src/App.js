@@ -81,7 +81,6 @@ function App() {
                 <Box title="You" item={userSelect} result={result} />
                 <Box title="Computer" item={computerSelect} result={result} /> 
       </div>
-
       <div className="main">
         <button onClick={() => play("rock")}>
           <img src="/img/rock.jpeg" alt="rock" />
@@ -93,13 +92,15 @@ function App() {
           <img src="/img/paper.jpeg" alt="paper" />
         </button>
       </div>
-
       <div className="scoreboard">
         <div>
           {winCount} : {loseCount}
         </div>
-         <button onClick={resetGame}>Reset</button> 
       </div>
+      <button className="resetBtn" onClick={resetGame}>
+        Reset
+      </button>
+       
     </div>
   );
 }
